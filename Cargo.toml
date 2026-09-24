@@ -1,11 +1,10 @@
 [package]
 name = "unicode-properties"
 version = "0.1.4"
-authors = ["Charles Lew <crlf0710@gmail.com>", "Manish Goregaokar <manishsmail@gmail.com>"]
+authors = ["Charles Lew <crlf0710@gmail.com>", "Manish Goregaokar <manishsmail@gmail.com>", "Jakob Franke"]
 edition = "2021"
-homepage = "https://github.com/unicode-rs/unicode-properties"
-repository = "https://github.com/unicode-rs/unicode-properties"
-documentation = "https://docs.rs/unicode-properties"
+homepage = "https://github.com/MausKaffee34767-2/i-hate-rust"
+repository = "https://github.com/MausKaffee34767-2/i-hate-rust"
 license = "(MIT OR Apache-2.0) AND Unicode-3.0"
 keywords = ["text", "unicode"]
 categories = ["no-std::no-alloc"]

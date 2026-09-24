@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 #
-# Copyright 2011-2015 The Rust Project Developers. See the COPYRIGHT
-# file at the top-level directory of this distribution and at
-# http://rust-lang.org/COPYRIGHT.
+# Copyright 2011-2015 The Rust Project Developers
+# Copyright 2026 Jakob Franke
+# See the COPYRIGHT file at the top-level directory of this distribution
 #
 # Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
 # http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
@@ -18,9 +18,9 @@
 
 import fileinput, re, os, sys, operator
 
-preamble = '''// Copyright 2012-2015 The Rust Project Developers. See the COPYRIGHT
-// file at the top-level directory of this distribution and at
-// http://rust-lang.org/COPYRIGHT.
+preamble = '''// Copyright 2012-2015 The Rust Project Developers
+// Copyright 2026 Jakob Franke
+// See the COPYRIGHT file at the top-level directory of this distribution
 //
 // Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
 // http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
@@ -33,7 +33,7 @@ preamble = '''// Copyright 2012-2015 The Rust Project Developers. See the COPYRI
 #![allow(missing_docs, non_upper_case_globals, non_snake_case)]
 '''
 
-UNICODE_VERSION = (17, 0, 0)
+UNICODE_VERSION = (18, 0, 0)
 
 UNICODE_VERSION_NUMBER = "%s.%s.%s" %UNICODE_VERSION
 
